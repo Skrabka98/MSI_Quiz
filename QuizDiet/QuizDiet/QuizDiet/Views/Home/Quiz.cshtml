@@ -4,7 +4,7 @@
     ViewData["Title"] = "Quiz";
 }
 
-<h1>@ViewBag.Aa</h1>
+
 @if (Model != null)
 {
     
@@ -14,11 +14,11 @@
 
             <h2>@Html.DisplayFor(modelItem => item.Questions)</h2>
             <br>
-            @for (int i = 0; i < 4; i++)
+            @foreach(var itemsAnswer in Model.Answers)
             {
 
-                <input type="radio" id="@Model.Answers[i].IDAnswer" name="answer" value="@Model.Answers[i].Points">
-                <label for="male">@Html.DisplayFor(modelItem => Model.Answers[i].Answers)</label>
+                <input type="radio" id="@itemsAnswer.IDAnswer" name="answer" value="@itemsAnswer.Points">
+                <label for="male">@Html.DisplayFor(modelItem => itemsAnswer.Answers)</label>
                 <br />
             }
         }
@@ -31,6 +31,6 @@
 }
 else
 {
-    <a href="/home/quiz/2">weqf</a>
+    <a href="/home/quiz/2">I nikt się nie dowie że Bartek to mój Miś bo działa :D</a>
 }
 

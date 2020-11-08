@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OkOgmP4vXWimXDwTO0DOqyWTWJUpXf2qfPAFaZx9rH82p/XtB6ppnffZehEX//egQ9XwwB+qmVVt/Y3rY9jkYQ==",
+  "dgSpecHash": "HoEcSP6hVCNwwrZ51iGEO+Lg2c5wZURwRc3OBVeH3FuSgDDRkxd68Jbr2GPm6IVuXlsift7VbNe0Itj7JGzIuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aleks\\OneDrive\\Pulpit\\MSI_Quiz-main\\QuizDiet\\QuizDiet\\QuizDiet.csproj",
+  "projectFilePath": "D:\\MSI_Quiz\\QuizDiet\\QuizDiet\\QuizDiet\\QuizDiet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aleks\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\aleks\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aleks\\OneDrive\\Pulpit\\MSI_Quiz-main\\QuizDiet\\QuizDiet\\QuizDiet.csproj": {}
+    "D:\\MSI_Quiz\\QuizDiet\\QuizDiet\\QuizDiet\\QuizDiet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aleks\\OneDrive\\Pulpit\\MSI_Quiz-main\\QuizDiet\\QuizDiet\\QuizDiet.csproj": {
+    "D:\\MSI_Quiz\\QuizDiet\\QuizDiet\\QuizDiet\\QuizDiet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aleks\\OneDrive\\Pulpit\\MSI_Quiz-main\\QuizDiet\\QuizDiet\\QuizDiet.csproj",
+        "projectUniqueName": "D:\\MSI_Quiz\\QuizDiet\\QuizDiet\\QuizDiet\\QuizDiet.csproj",
         "projectName": "QuizDiet",
-        "projectPath": "C:\\Users\\aleks\\OneDrive\\Pulpit\\MSI_Quiz-main\\QuizDiet\\QuizDiet\\QuizDiet.csproj",
+        "projectPath": "D:\\MSI_Quiz\\QuizDiet\\QuizDiet\\QuizDiet\\QuizDiet.csproj",
         "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aleks\\OneDrive\\Pulpit\\MSI_Quiz-main\\QuizDiet\\QuizDiet\\obj\\",
+        "outputPath": "D:\\MSI_Quiz\\QuizDiet\\QuizDiet\\QuizDiet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
