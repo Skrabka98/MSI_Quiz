@@ -56,12 +56,30 @@ namespace QuizDiet.Controllers
         [HttpPost]
         public IActionResult Quiz(string answer)
         {
-            zzz++;
-            int id = zzz;
-            int idd = Convert.ToInt32(answer);
-            point += idd;
-            return RedirectToAction("Quiz", "Home", new { id });
+            var numberOfQuestions = _db.Questions;
+            if (numberOfQuestions.Count() > zzz)
+            {
+                zzz++;
+                int id = zzz;
+                int idInt = Convert.ToInt32(answer);
+                point += idInt;
+                return RedirectToAction("Quiz", "Home", new { id });
+            }
+            else
+            {
+                return RedirectToAction("Result");
+            }
             
+        }
+
+        [HttpGet]
+        public IActionResult Result()
+        {
+            var resultsVM = new ResultViewModel();
+            resultsVM.Results = _db.Results.Where(x => x.ScoreMax >= point && x.ScoreMin <= point).ToList();
+            zzz = 0;
+            point = 0;
+            return View(resultsVM);
         }
     }
 }

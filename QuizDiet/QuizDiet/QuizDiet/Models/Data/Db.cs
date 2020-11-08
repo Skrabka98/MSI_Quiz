@@ -75,6 +75,10 @@ namespace QuizDiet.Models.Data
                 new Reply { IDReply = 19, IDQuestion = 5, IDAnswer = 19 },
                 new Reply { IDReply = 20, IDQuestion = 5, IDAnswer = 20 }
                 );
+            builder.Entity<Result>().HasData(
+                new Result { IDResult = 1, ScoreMin = 5, ScoreMax = 10, Diet = "Jakaś pierwsza dieta"},
+                new Result { IDResult = 2, ScoreMin = 11, ScoreMax = 20, Diet = "Jakaś druga dieta" }
+                );
         }
     }
     }
