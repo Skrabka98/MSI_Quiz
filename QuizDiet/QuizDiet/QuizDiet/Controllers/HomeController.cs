@@ -12,7 +12,9 @@ namespace QuizDiet.Controllers
     {
  
         private readonly Db _db;
-        private Points points;
+        private static int point;
+        private Points points = new Points(point);
+        
         
 
         public HomeController(Db db)
@@ -34,11 +36,12 @@ namespace QuizDiet.Controllers
         [HttpGet]
         public IActionResult Quiz(int id)
         {
+            
             int idd = Convert.ToInt32(id);
             var vm = new ListViewModel();
             vm.Questions = _db.Questions.Where(x => x.IDQestion == idd).ToList();
             vm.Answers = _db.Replies.Where(x => x.IDQuestion == idd).Select(x => x.Answer).ToList();
-            if (points.pointss != null)
+            if (point != 0)
             {
                 vm.punkciki = points.pointss;
 
@@ -52,8 +55,8 @@ namespace QuizDiet.Controllers
         public IActionResult Quiz(string answer)
         {
             int idd = Convert.ToInt32(answer);
-
-            points.pointss += idd;
+            point += idd;
+     //       points.pointss += idd;
             return View();
         }
     }
