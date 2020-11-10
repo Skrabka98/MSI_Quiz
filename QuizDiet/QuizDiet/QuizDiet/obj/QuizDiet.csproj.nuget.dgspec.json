@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ppo\\39607\\MSI_Quiz\\QuizDiet\\QuizDiet\\QuizDiet\\QuizDiet.csproj": {}
+    "D:\\MSI_Quiz\\QuizDiet\\QuizDiet\\QuizDiet\\QuizDiet.csproj": {}
   },
   "projects": {
-    "C:\\ppo\\39607\\MSI_Quiz\\QuizDiet\\QuizDiet\\QuizDiet\\QuizDiet.csproj": {
+    "D:\\MSI_Quiz\\QuizDiet\\QuizDiet\\QuizDiet\\QuizDiet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ppo\\39607\\MSI_Quiz\\QuizDiet\\QuizDiet\\QuizDiet\\QuizDiet.csproj",
+        "projectUniqueName": "D:\\MSI_Quiz\\QuizDiet\\QuizDiet\\QuizDiet\\QuizDiet.csproj",
         "projectName": "QuizDiet",
-        "projectPath": "C:\\ppo\\39607\\MSI_Quiz\\QuizDiet\\QuizDiet\\QuizDiet\\QuizDiet.csproj",
-        "packagesPath": "C:\\Users\\barti\\.nuget\\packages\\",
-        "outputPath": "C:\\ppo\\39607\\MSI_Quiz\\QuizDiet\\QuizDiet\\QuizDiet\\obj\\",
+        "projectPath": "D:\\MSI_Quiz\\QuizDiet\\QuizDiet\\QuizDiet\\QuizDiet.csproj",
+        "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
+        "outputPath": "D:\\MSI_Quiz\\QuizDiet\\QuizDiet\\QuizDiet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\barti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
