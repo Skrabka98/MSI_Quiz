@@ -636,3 +636,4 @@ C:\ppo\39607\MSI_Quiz\QuizDiet\QuizDiet\QuizDiet\obj\Debug\netcoreapp3.1\QuizDie
 C:\ppo\39607\MSI_Quiz\QuizDiet\QuizDiet\QuizDiet\obj\Debug\netcoreapp3.1\QuizDiet.pdb
 C:\ppo\39607\MSI_Quiz\QuizDiet\QuizDiet\QuizDiet\obj\Debug\netcoreapp3.1\QuizDiet.genruntimeconfig.cache
 C:\ppo\39607\MSI_Quiz\QuizDiet\QuizDiet\QuizDiet\obj\Debug\netcoreapp3.1\Razor\Views\Home\Result.cshtml.g.cs
+D:\MSI_Quiz\QuizDiet\QuizDiet\QuizDiet\obj\Debug\netcoreapp3.1\Razor\Views\Home\Result.cshtml.g.cs

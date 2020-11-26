@@ -18,19 +18,18 @@
             {
 
                 <input type="radio" id="@itemsAnswer.IDAnswer" name="answer" value="@itemsAnswer.Points">
-                <label for="male">@Html.DisplayFor(modelItem => itemsAnswer.Answers)</label>
+                <label for="answer">@Html.DisplayFor(modelItem => itemsAnswer.Answers)</label>
                 <br />
             }
         }
 
 
-        <label for="firstName">Your first name</label>
         <a href="/home/quiz/2"><input type="submit" /></a>
     </form>
 
 }
 else
 {
-    <a href="/home/quiz/2">I nikt się nie dowie że Bartek to mój Miś bo działa :D</a>
+    <a href="/home/">Brak pytań -- Powrót</a>
 }
 

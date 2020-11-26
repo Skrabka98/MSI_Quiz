@@ -4,8 +4,8 @@
     ViewData["Title"] = "Result";
 }
 
-<h1>Result</h1>
+<h1>Twoja dieta:</h1>
 @foreach (var item in Model.Results)
 {
-    <h2>@Html.DisplayFor(modelItem => item.Diet)</h2>
+    <h3>@Html.DisplayFor(modelItem => item.Diet)</h3>
 }

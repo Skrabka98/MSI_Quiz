@@ -8507,11 +8507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ppo\\39607\\MSI_Quiz\\QuizDiet\\QuizDiet\\QuizDiet\\QuizDiet.csproj",
+      "projectUniqueName": "C:\\ppo\\39607\\MSI_Quiz\\QuizDiet\\QuizDiet.csproj",
       "projectName": "QuizDiet",
-      "projectPath": "C:\\ppo\\39607\\MSI_Quiz\\QuizDiet\\QuizDiet\\QuizDiet\\QuizDiet.csproj",
+      "projectPath": "C:\\ppo\\39607\\MSI_Quiz\\QuizDiet\\QuizDiet.csproj",
       "packagesPath": "C:\\Users\\barti\\.nuget\\packages\\",
-      "outputPath": "C:\\ppo\\39607\\MSI_Quiz\\QuizDiet\\QuizDiet\\QuizDiet\\obj\\",
+      "outputPath": "C:\\ppo\\39607\\MSI_Quiz\\QuizDiet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\barti\\AppData\\Roaming\\NuGet\\NuGet.Config",

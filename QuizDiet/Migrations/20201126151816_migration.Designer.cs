@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using QuizDiet.Models.Data;
 
 namespace QuizDiet.Migrations
 {
     [DbContext(typeof(Db))]
-    partial class DbModelSnapshot : ModelSnapshot
+    [Migration("20201126151816_migration")]
+    partial class migration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -375,9 +377,16 @@ namespace QuizDiet.Migrations
                         new
                         {
                             IDResult = 1,
-                            Diet = "Dieta dla aktywnych Dieta dla osób aktywnych powinna dostarczać wszystkie składniki odżywcze - białka,tłuszcze oraz węglowodany - w odpowiednim stosunku. Przyjmuje się, iż węglowodany powinny pokrywać 55 % zapotrzebowania energetycznego, tłuszcze 30 %, a białka 15 %. Ze względu na intensywny tryb życia wzrasta zapotrzebowanie na energię średnio o około 500 kcal. Węglowodany, powinny dominować węglowodany złożone, czyli kasze(gryczana, jęczmienna), ryż brązowy, pieczywo pełnoziarniste. W ograniczonych ilościach powinny być spożywane węglowodany proste, których źródłem są owoce, słodycze oraz desery. Tłuszcze nienasycone oleje roślinne(lniany, słonecznikowy, z orzechów włoskich) oraz oliwa z oliwek. Białko pełnowartościowe mleko i jego przetwory(ser biały, jogurt naturalny, kefir),ryby morskie oraz chude mięso i wędliny zawierające powyżej 70 % mięsa.Wysiłek fizyczny wiąże się z dużą stratą wody i składników mineralnych.Z tego względu zaleca się picie 2 litrów dziennie,w tym do każdego posiłku 2 szklanki napoju, najlepiej wody mineralnej niegazowanej wysokozmineralizowanej, soków warzywnych oraz zielonej herbaty wykazującej silne właściwości antyoksydacyjne.",
-                            ScoreMax = 23,
+                            Diet = "Jakaś pierwsza dieta",
+                            ScoreMax = 10,
                             ScoreMin = 5
+                        },
+                        new
+                        {
+                            IDResult = 2,
+                            Diet = "Jakaś druga dieta",
+                            ScoreMax = 20,
+                            ScoreMin = 11
                         });
                 });
 

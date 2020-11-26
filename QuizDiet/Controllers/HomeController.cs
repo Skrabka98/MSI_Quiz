@@ -13,9 +13,9 @@ namespace QuizDiet.Controllers
  
         private readonly Db _db;
         private static int point;
-        private static int zzz;
+        private static int questionNumber;
         private Points points = new Points(point);
-        private Id cos = new Id(zzz);
+        private Id cos = new Id(questionNumber);
         
 
         public HomeController(Db db)
@@ -39,7 +39,7 @@ namespace QuizDiet.Controllers
         {
             
             id = Convert.ToInt32(id);
-            zzz = id;
+            questionNumber = id;
             var vm = new ListViewModel();
             vm.Questions = _db.Questions.Where(x => x.IDQestion == id).ToList();
             vm.Answers = _db.Replies.Where(x => x.IDQuestion == id).Select(x => x.Answer).ToList();
@@ -57,10 +57,10 @@ namespace QuizDiet.Controllers
         public IActionResult Quiz(string answer)
         {
             var numberOfQuestions = _db.Questions;
-            if (numberOfQuestions.Count() > zzz)
+            if (numberOfQuestions.Count() > questionNumber)
             {
-                zzz++;
-                int id = zzz;
+                questionNumber++;
+                int id = questionNumber;
                 int idInt = Convert.ToInt32(answer);
                 point += idInt;
                 return RedirectToAction("Quiz", "Home", new { id });
@@ -77,7 +77,7 @@ namespace QuizDiet.Controllers
         {
             var resultsVM = new ResultViewModel();
             resultsVM.Results = _db.Results.Where(x => x.ScoreMax >= point && x.ScoreMin <= point).ToList();
-            zzz = 0;
+            questionNumber = 0;
             point = 0;
             return View(resultsVM);
         }
